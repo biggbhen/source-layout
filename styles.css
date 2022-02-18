@@ -7,6 +7,9 @@
   font-family: "Oswald", sans-serif;
   color: #304659;
 }
+.container{
+ overflow: auto;
+}
 
 header{
  background-color: #F5F9FC;
@@ -125,7 +128,11 @@ p{
 .bottom div + div{
  width: 96%;
  margin-top: 1rem;
- background-color: #F5F9FC;
+ background-color: #E1E9F0;
+ height: 2rem;
+}
+.icons{
+ width: 30px;
 }
 @media (max-width:845px) {
  .about-source{
